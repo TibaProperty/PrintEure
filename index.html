@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impression de documents A4 et A3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Impression documents A4 et A3</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Choisissez votre produit</h2>
+            <form id="impression-form">
+                <div>
+                    <label for="format">Format</label>
+                    <select id="format">
+                        <option value="A4">A4</option>
+                        <option value="A3">A3</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="type-impression">Type d'impression</label>
+                    <select id="type-impression">
+                        <option value="recto">Recto</option>
+                        <option value="recto-verso">Recto-Verso</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="mode-impression">Mode d'impression</label>
+                    <select id="mode-impression">
+                        <option value="noir-blanc">Notre drone</option>
+                        <option value="couleur">Couleur</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="nombre-pages">Nombre de pages de votre/vos fichier(s) PDF</label>
+                    <select id="nombre-pages">
+                        <option value="1-9">De 1 à 9 pages</option>
+                        <option value="10-99">De 10 à 99 pages</option>
+                        <option value="100-449">De 100 à 449 pages</option>
+                        <option value="450-plus">450 pages et plus</option>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Prix de l'impression : <span id="prix">0,00 €</span> / page</p>
+                </div>
+
+                <button type="submit">CONTINUER LA COMMANDE</button>
+            </form>
+        </section>
+
+        <section>
+            <p>Pour tous vos travaux d'impression plus élaborés (thèses, mémoires, supports de communication et grands formats), rendez-vous sur notre site de commande en ligne <a href="https://corep-online.fr">corep-online.fr</a> (retrait en agence et livraison).</p>
+        </section>
+
+        <section>
+            <h3>NOUVEAU</h3>
+            <p>Vous pouvez désormais commander la reliure de vos documents A4 avec une spirale plastique (400 feuilles max) sur le Drive.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Impression en ligne. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
